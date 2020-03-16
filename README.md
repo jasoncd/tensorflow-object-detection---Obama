@@ -2,6 +2,7 @@
 
 # data
 The data used in the experiment can be downloaded from  
+
      https://www.kaggle.com/jipingsun/object-detection-obama
      
 # requirements
