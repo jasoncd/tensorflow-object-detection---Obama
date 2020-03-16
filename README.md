@@ -18,5 +18,15 @@ Installation:
         
    Navigate to the folder: models/research/object_detection
    
-   
+(2) Merge the folder 'object_detection' of this repo
+
+(3) Prepare the data set and copy the generated train.record and test.record to the folder 'object_detection'
+
+(4) Obtain the Google model and extract it to the sub-folder 'object_detection/faster_rcnn_inception_v2_coco_2018_01_28
+
+# Training and Testing
+
+In object_detection folder, execute run-train and then execute run-test
+
+(note: in training/ folder, edit the path "find_tune_checkpoint:" of the file pipeline.config to suit the path of the Google model)
 
