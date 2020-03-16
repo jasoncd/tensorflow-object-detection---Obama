@@ -1,11 +1,11 @@
 # Tensorflow Object Detection -- Find Obama In Photos
 
-# data
+# Data
 The data used in the experiment can be downloaded from  
 
      https://www.kaggle.com/jipingsun/object-detection-obama
      
-# requirements
+# Requirements
 
 Environment:
 The experiment is done on Linux (Ubuntu 16.04 with GPU Cuda library version 9.0, cudnn version 9.0, Tensorflow 1.5 GPU version)
