@@ -24,7 +24,7 @@ Installation:
 
 (4) Obtain the Google model at 
 
-wget http://download.tensorflow.org/models/object_detection/faster_rcnn_inception_v2_coco_2018_01_28.tar.gz
+    http://download.tensorflow.org/models/object_detection/faster_rcnn_inception_v2_coco_2018_01_28.tar.gz
 
 and extract it to the sub-folder 'object_detection/faster_rcnn_inception_v2_coco_2018_01_28
 
