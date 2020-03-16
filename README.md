@@ -10,7 +10,9 @@ Environment:
 The experiment is done on Linux (Ubuntu 16.04 with GPU Cuda library version 9.0, cudnn version 9.0, Tensorflow 1.5 GPU version)
 
 Installation:
+
 (1) Install Google library located at
+
      https://github.com/tensorflow/models
         
 
