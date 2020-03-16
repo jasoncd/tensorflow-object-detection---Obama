@@ -16,4 +16,7 @@ Installation:
 
      https://github.com/tensorflow/models
         
+   Navigate to the folder: models/research/object_detection
+   
+   
 
