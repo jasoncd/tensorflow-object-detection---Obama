@@ -12,7 +12,7 @@ The experiment is done on Linux (Ubuntu 16.04 with GPU Cuda library version 9.0,
 
 Installation:
 
-(1) Install Google library located at
+(1) Install Google tensorflow library located at
 
      https://github.com/tensorflow/models
         
@@ -22,11 +22,26 @@ Installation:
 
 (3) Prepare the data set and copy the generated train.record and test.record to the folder 'object_detection'
 
-(4) Obtain the Google model and extract it to the sub-folder 'object_detection/faster_rcnn_inception_v2_coco_2018_01_28
+(4) Obtain the Google model at 
+
+wget http://download.tensorflow.org/models/object_detection/faster_rcnn_inception_v2_coco_2018_01_28.tar.gz
+
+and extract it to the sub-folder 'object_detection/faster_rcnn_inception_v2_coco_2018_01_28
 
 # Training and Testing
 
-In object_detection folder, execute run-train and then execute run-test
+In object_detection folder, execute 
 
-(note: in training/ folder, edit the path "find_tune_checkpoint:" of the file pipeline.config to suit the path of the Google model)
+  ./run-train and then execute 
+  
+  ./run-test  (choose either image or webcam option inside the script)
+  
+
+(Note: in training/ folder, edit the path "find_tune_checkpoint:" of the file pipeline.config to suit the path of the Google model)
+
+# Results
+
+Detection accuracy is around 95%.
+
+
 
