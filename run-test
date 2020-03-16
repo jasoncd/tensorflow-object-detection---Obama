@@ -1,4 +1,0 @@
-python object_detection_image.py
-
-## or to use webcam 
-# python object_detection_webcam.py
