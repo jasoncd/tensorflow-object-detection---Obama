@@ -1,4 +1,4 @@
-# tensorflow-object-detection---Obama
+# Tensorflow Object Detection -- Find Obama In Photos
 
 # data
 The data used in the experiment can be downloaded from  
